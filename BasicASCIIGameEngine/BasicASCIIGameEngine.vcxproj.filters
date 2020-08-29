@@ -13,19 +13,22 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Header Files\GameClasses">
-      <UniqueIdentifier>{e4fa7a67-9f8c-481c-bd71-1508ec2da748}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\CompilerHeaders">
       <UniqueIdentifier>{fc945f37-faf7-4548-929e-269c0ebaa49d}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\Constructors">
       <UniqueIdentifier>{fff46342-5e41-43c2-ae80-d78a706f2021}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\EntityClasses">
+      <UniqueIdentifier>{e4fa7a67-9f8c-481c-bd71-1508ec2da748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EngineClasses">
+      <UniqueIdentifier>{15027fa2-2041-4a6c-80ab-70e1086bed50}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="playerClass.h">
-      <Filter>Header Files\GameClasses</Filter>
+      <Filter>Header Files\EntityClasses</Filter>
     </ClInclude>
     <ClInclude Include="stdafx.h">
       <Filter>Header Files\CompilerHeaders</Filter>
@@ -34,10 +37,13 @@
       <Filter>Header Files\CompilerHeaders</Filter>
     </ClInclude>
     <ClInclude Include="GameSystem.h">
-      <Filter>Header Files\GameClasses</Filter>
+      <Filter>Header Files\EngineClasses</Filter>
     </ClInclude>
     <ClInclude Include="dataHandler.h">
-      <Filter>Header Files\GameClasses</Filter>
+      <Filter>Header Files\EngineClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="terminalRender.h">
+      <Filter>Header Files\EngineClasses</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
